@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewOrderActivity</string>
+    <string name="mainBtnOrder">주문하기</string>
+    <string name="mainTextViewTitle">주문관리</string>
+</resources>
