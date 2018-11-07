@@ -1,6 +1,7 @@
 package com.mmj.www.neworderactivity;
 
 import android.content.Intent;
+import android.renderscript.Sampler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +11,7 @@ import android.widget.TextView;
 
 public class OrderActivity extends AppCompatActivity implements View.OnClickListener {
 
-    int cnt=0;
+
 
 
     @Override
@@ -29,7 +30,7 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
         imageButtonminer1.setOnClickListener(this);
 
         TextView textViewNum1=findViewById(R.id.textViewNum1);
-        Integer i = Integer.valueOf();
+
 
         /*ImageButton imageButtonAdd2=findViewById(R.id.imageButtonAdd2);
         imageButtonAdd2.setOnClickListener(this);
@@ -52,16 +53,21 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
 
 
 
-        int cnt=0;
+        int cnt;
         switch (view.getId()){
 
+
             case R.id.imageButtonAdd1:
+
+                TextView textViewNum1=findViewById(R.id.textViewNum1);
+                cnt = Integer.parseInt(textViewNum1.getText().toString());
                 cnt++;
-                textViewNum1 = textViewNum1.setText(String.valueOf(cnt)
+                textViewNum1.setText(String.valueOf(cnt));
+
                 break;
 
             case R.id.imageButtonminer1:
-                cnt--;
+
                 break;
 
 
