@@ -72,23 +72,13 @@
                     android:text="@string/mainBtnOrder"
                     tools:layout_editor_absoluteX="154dp"
                     tools:layout_editor_absoluteY="266dp" />
+
             </LinearLayout>
 
-            <ScrollView
+            <ListView
+                android:id="@+id/listViewtable"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
-
-                    <ListView
-                        android:id="@+id/listViewtable"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
-                </LinearLayout>
-            </ScrollView>
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>

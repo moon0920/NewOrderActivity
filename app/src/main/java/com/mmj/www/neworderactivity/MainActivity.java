@@ -10,10 +10,15 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener {
+    MenuDataBase dbmenu;
+    SQLiteDatabase mdb;
+    String menu, cost, num;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +27,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button mainBtnOrder = findViewById(R.id.mainBtnOrder);
         mainBtnOrder.setOnClickListener(this);
 
-        String[] MENU = new String[] {"아메리카노", "카페라떼", "에그토스트", "햄토스트","샌드위치","스콘"};
+        dbmenu = new MenuDataBase (this, "order.db", null, 1);
+        mdb=dbmenu.getWritableDatabase();
+
+        String[] MENU = new String[]{"아메리카노", "카페라떼", "에그토스트", "햄토스트","샌드위치","스콘"};
         ListView listView = (ListView)findViewById(R.id.listViewtable);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.listview,MENU);
         listView.setAdapter(arrayAdapter);
