@@ -133,7 +133,7 @@
                 app:srcCompat="@android:drawable/ic_delete" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textViewNum2"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
