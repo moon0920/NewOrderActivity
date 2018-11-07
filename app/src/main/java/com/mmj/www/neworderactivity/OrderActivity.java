@@ -54,8 +54,7 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
 
 
         int cnt;
-        switch (view.getId()){
-
+        switch (view.getId()){//
 
             case R.id.imageButtonAdd1:
 
