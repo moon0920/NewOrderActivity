@@ -17,7 +17,7 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
         buttonResult.setOnClickListener(this);
         Button buttonCancel = findViewById(R.id.buttonCancel);
         buttonCancel.setOnClickListener(this);
-        //
+        //푸시
     }
 
     @Override
