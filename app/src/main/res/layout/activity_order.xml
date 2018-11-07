@@ -70,22 +70,22 @@
                 android:textAlignment="textEnd"
                 android:textSize="18sp" />
 
-            <ImageView
-                android:id="@+id/imageViewAdd"
-                android:layout_width="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtonAdd1"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@android:drawable/ic_input_add" />
 
-            <ImageView
-                android:id="@+id/imageViewdel"
-                android:layout_width="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtonminer1"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@android:drawable/ic_delete" />
 
             <TextView
-                android:id="@+id/textViewNum"
+                android:id="@+id/textViewNum1"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -118,22 +118,22 @@
                 android:textAlignment="textEnd"
                 android:textSize="18sp" />
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtonAdd2"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@android:drawable/ic_input_add" />
 
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtonminer2"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@android:drawable/ic_delete" />
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/textView2"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -165,22 +165,22 @@
                 android:textAlignment="textEnd"
                 android:textSize="18sp" />
 
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtonAdd3"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@android:drawable/ic_input_add" />
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
+            <ImageButton
+                android:id="@+id/imageButtonminer3"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@android:drawable/ic_delete" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textViewNum3"
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
