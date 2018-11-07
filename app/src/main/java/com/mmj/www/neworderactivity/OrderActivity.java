@@ -67,6 +67,11 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
                 break;
 
             case R.id.imageButtonminer1:
+                TextView textViewNum2=findViewById(R.id.textViewNum1);
+                cnt = Integer.parseInt(textViewNum2.getText().toString());//string자료형을 int자료형으로 변형하는 구문
+                cnt--;
+                textViewNum2.setText(String.valueOf(cnt));
+
 
                 break;
 
